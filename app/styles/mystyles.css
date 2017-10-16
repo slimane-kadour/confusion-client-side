@@ -6,7 +6,7 @@
   margin: 0px auto;
   padding: 50px 0px;
   border-bottom: 1px ridge;
-  min-height: 400px;
+      min-height: 300px;
 }
 .row-footer {
     background: url(../images/footerbg.jpg);
@@ -172,4 +172,12 @@ footer{
     text-align: center;
     margin-left: -129px;
     margin-right: 213px;
+}
+.breadcrumb {
+    background-color: black;
+    margin-top: 15px;
+}
+.title h3 {
+    text-align: center;
+    font-weight: bold;
 }
