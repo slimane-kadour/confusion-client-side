@@ -6,7 +6,7 @@
   margin: 0px auto;
   padding: 50px 0px;
   border-bottom: 1px ridge;
-      min-height: 300px;
+  min-height: 300px;
 }
 .row-footer {
     background: url(../images/footerbg.jpg);
@@ -18,6 +18,7 @@
     font-size: 24px;
     font-family: 'Pacifico', cursive;
     color: white;
+    margin-left: -9px;
 }
 .jumbotron {
   margin: 0px auto;
@@ -38,7 +39,9 @@
   
     top: 0;
 }
-
+.welcome {
+    margin-top: 45px;
+}
  
   @media (max-width: 600px) {
     .carousel-caption {
@@ -85,8 +88,8 @@
   color: #eeeeee;
 }
 address {
-  color: #212020;
-  font-size: 88%;
+    color: #212020;
+    font-size: 88%;
     text-align: center;
     margin-left: -129px;
     margin-right: 213px;
@@ -167,11 +170,14 @@ footer{
         height: 100%;
     }
 .adress address{
-        color: #f7f0f0;
+    color: #f7f0f0;
     font-size: 88%;
     text-align: center;
     margin-left: -129px;
-    margin-right: 213px;
+    margin-right: 112px;
+}
+.hour h2{
+    margin-left: -60px;
 }
 .breadcrumb {
     background-color: black;
@@ -180,4 +186,10 @@ footer{
 .title h3 {
     text-align: center;
     font-weight: bold;
+}
+.title-2  {
+    text-align: center;
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: 700;
 }
